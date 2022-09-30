@@ -12,5 +12,8 @@
   "otherPortsAttributes": {
     "onAutoForward": "silent"
   },
+  "forwardPorts": [
+    8081
+  ],
   "postCreateCommand": "[ ! -f package-lock.json ] || npm ci"
 }
